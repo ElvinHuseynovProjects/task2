@@ -1,0 +1,170 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    /* background-color: black; */
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    margin-left: 100px;
+}
+
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    margin-right: 100px;
+}
+
+nav i{
+    margin-left: 80px; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(79, 76, 76);
+}
+
+button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    
+}
+/* -----------------------------section1---------------- */
+
+img{
+   width: 100%;
+   height: 100%;
+
+}
+
+.section{
+    width: 100%;
+    /* background-color: yellow ; */
+    display: flex;
+    justify-content:  space-between;
+    margin-top: 100px;
+}
+
+article{
+    width: 50%;
+    /* background-color: beige; */
+    margin-left: 100px;
+    
+}
+
+.firstInfo{
+    display: flex;
+    /* background-color: rgb(1, 134, 30); */
+    align-items: center;
+    
+}
+
+.firstInfo h2{
+    font-size: 50px;
+
+}
+
+.firstInfo i{
+ font-size: 50px;
+ color: yellow;
+ margin-left: 45px;
+ rotate: -40deg;
+}
+
+article p{
+    margin-top: 25px;
+  color:  rgba(128, 128, 128, 0.741);
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.location i{
+    margin-bottom: 15px;
+    color: gray;
+}
+.location i:nth-child(2){
+    color: green;
+    font-size: 10px;
+}
+
+.location i span{
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+
+}
+
+.icons{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: space-around;
+    width: 150px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.icons i{
+    font-size: 25px;
+    color: gray;
+}
+
+.profilPhoto{
+    margin-right: 150px;
+    width: 30%;
+    /* background-color: blue; */
+    height: 340px;
+    
+}
+
+.imgContainer img{
+    width: 240px;
+    height: 280px;
+    position: absolute;
+    top: -50px;
+    left: -60px;
+    border: 10px solid white;
+    
+    
+}
+
+.imgContainer{
+    width: 210px;
+    height: 260px ;
+    position: relative;
+    background-color: rgba(225, 216, 216, 0.479);
+    margin-left: auto;
+    top: 40px;
+}
+
